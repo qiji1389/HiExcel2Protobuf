@@ -19,3 +19,10 @@ D:\MyGit\github\HiProtobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.pdb
 D:\MyGit\github\HiProtobuf\Example\HiProtobuf\HiProtobuf.Lib.dll
 D:\MyGit\github\HiProtobuf\Example\HiProtobuf\HiProtobuf.Lib.pdb
 D:\MyGit\github\HiProtobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.csprojAssemblyReference.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\HiProtobuf\HiProtobuf.Lib.dll
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\HiProtobuf\HiProtobuf.Lib.pdb
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.csprojAssemblyReference.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.csproj.CoreCompileInputs.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.csproj.CopyComplete
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.dll
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.Lib\obj\Debug\HiProtobuf.Lib.pdb

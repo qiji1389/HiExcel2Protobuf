@@ -13,14 +13,14 @@ namespace HiProtobuf.Lib
         private string _languageFolder;
         public void Process()
         {
-            _languageFolder = Settings.Export_Folder + Settings.language_folder;
+            _languageFolder = Settings.ProtobufOutput_Folder + Settings.language_folder;
             if (Directory.Exists(_languageFolder))
             {
                 Directory.Delete(_languageFolder, true);
             }
             Directory.CreateDirectory(_languageFolder);
 
-            var protoFolder = Settings.Export_Folder + Settings.proto_folder;
+            var protoFolder = Settings.ProtobufOutput_Folder + Settings.proto_folder;
             Process_csharp(protoFolder);
             Process_cpp(protoFolder);
             Process_go(protoFolder);

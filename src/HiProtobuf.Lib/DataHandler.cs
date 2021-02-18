@@ -21,7 +21,7 @@ namespace HiProtobuf.Lib
         private object _excelIns;
         public DataHandler()
         {
-            var folder = Settings.Export_Folder + Settings.dat_folder;
+            var folder = Settings.ProtobufOutput_Folder + Settings.dat_folder;
             if (Directory.Exists(folder))
             {
                 Directory.Delete(folder, true);
@@ -31,9 +31,9 @@ namespace HiProtobuf.Lib
 
         public void Process()
         {
-            var dllPath = Settings.Export_Folder + Settings.language_folder + Settings.csharp_dll_folder + Compiler.DllName;
+            var dllPath = Settings.ProtobufOutput_Folder + Settings.language_folder + Settings.csharp_dll_folder + Compiler.DllName;
             _assembly = Assembly.LoadFrom(dllPath);
-            var protoFolder = Settings.Export_Folder + Settings.proto_folder;
+            var protoFolder = Settings.ProtobufOutput_Folder + Settings.proto_folder;
             string[] files = Directory.GetFiles(protoFolder, "*.proto", SearchOption.AllDirectories);
             for (int i = 0; i < files.Length; i++)
             {
@@ -41,7 +41,7 @@ namespace HiProtobuf.Lib
                 string name = Path.GetFileNameWithoutExtension(protoPath);
                 string excelInsName = "HiProtobuf.Excel_" + name;
                 _excelIns = _assembly.CreateInstance(excelInsName);
-                string excelPath = Settings.Excel_Folder + "/" + name + ".xlsx";
+                string excelPath = Settings.SourceExcel_Folder + "/" + name + ".xlsx";
                 ProcessData(excelPath);
             }
         }
@@ -292,7 +292,7 @@ namespace HiProtobuf.Lib
         void Serialize(object obj)
         {
             var type = obj.GetType();
-            var path = Settings.Export_Folder + Settings.dat_folder + "/" + type.Name + ".dat";
+            var path = Settings.ProtobufOutput_Folder + Settings.dat_folder + "/" + type.Name + ".dat";
             using (var output = File.Create(path))
             {
                 MessageExtensions.WriteTo((IMessage)obj, output);

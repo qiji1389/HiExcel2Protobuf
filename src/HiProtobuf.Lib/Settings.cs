@@ -12,14 +12,14 @@ namespace HiProtobuf.Lib
     public static class Settings
     {
         /// <summary>
-        /// 导出文件夹
+        /// Protobuf 导出文件夹
         /// </summary>
-        public static string Export_Folder = string.Empty;
+        public static string ProtobufOutput_Folder = string.Empty;
 
         /// <summary>
         /// Excel文件夹
         /// </summary>
-        public static string Excel_Folder = string.Empty;
+        public static string SourceExcel_Folder = string.Empty;
 
         /// <summary>
         /// 编译器路径

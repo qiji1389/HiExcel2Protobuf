@@ -13,17 +13,17 @@ namespace HiProtobuf.Lib
     {
         public static void Export()
         {
-            if (string.IsNullOrEmpty(Settings.Export_Folder))
+            if (string.IsNullOrEmpty(Settings.ProtobufOutput_Folder))
             {
                 Log.Error("导出文件夹未配置");
                 return;
             }
-            if (string.IsNullOrEmpty(Settings.Export_Folder))
+            if (string.IsNullOrEmpty(Settings.SourceExcel_Folder))
             {
                 Log.Error("Excel文件夹未配置");
                 return;
             }
-            if (string.IsNullOrEmpty(Settings.Export_Folder))
+            if (string.IsNullOrEmpty(Settings.Compiler_Path))
             {
                 Log.Error("编译器路径未配置");
                 return;

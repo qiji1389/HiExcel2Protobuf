@@ -33,3 +33,14 @@ D:\MyGit\github\HiProtobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.pdb
 D:\MyGit\github\HiProtobuf\Example\HiProtobuf\HiProtobuf.UI.exe.config
 D:\MyGit\github\HiProtobuf\Example\HiProtobuf\HiProtobuf.UI.exe
 D:\MyGit\github\HiProtobuf\Example\HiProtobuf\HiProtobuf.UI.pdb
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\HiProtobuf\HiProtobuf.UI.exe.config
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\HiProtobuf\HiProtobuf.UI.exe
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\HiProtobuf\HiProtobuf.UI.pdb
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.csprojAssemblyReference.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.HiProtobuf.resources
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.Properties.Resources.resources
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.csproj.GenerateResource.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.csproj.CoreCompileInputs.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.csproj.CopyComplete
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.exe
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\HiProtobuf.UI\obj\Debug\HiProtobuf.UI.pdb

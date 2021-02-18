@@ -32,7 +32,7 @@ namespace HiProtobuf.Lib
             _colCount = colCount;
             _Range = range;
 
-            _path = Settings.Export_Folder + Settings.proto_folder + "/" + name + ".proto";
+            _path = Settings.ProtobufOutput_Folder + Settings.proto_folder + "/" + name + ".proto";
         }
 
         public void Process()

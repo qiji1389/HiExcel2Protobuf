@@ -18,7 +18,7 @@ namespace HiProtobuf.Lib
     {
         public ProtoHandler()
         {
-            var path = Settings.Export_Folder + Settings.proto_folder;
+            var path = Settings.ProtobufOutput_Folder + Settings.proto_folder;
             if (Directory.Exists(path))
             {
                 Directory.Delete(path, true);
@@ -29,7 +29,7 @@ namespace HiProtobuf.Lib
         public void Process()
         {
             //递归查询
-            string[] files = Directory.GetFiles(Settings.Excel_Folder, "*.xlsx", SearchOption.AllDirectories);
+            string[] files = Directory.GetFiles(Settings.SourceExcel_Folder, "*.xlsx", SearchOption.AllDirectories);
             for (int i = 0; i < files.Length; i++)
             {
                 var path = files[i];
