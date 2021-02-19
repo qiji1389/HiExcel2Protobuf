@@ -17,7 +17,7 @@
 #include <google/protobuf/port_def.inc>
 extern PROTOBUF_INTERNAL_EXPORT_Test_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Excel_Test_DataEntry_DoNotUse_Test_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_Test_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Test_Test_2eproto;
-namespace HiProtobuf {
+namespace cjProtoBuf {
 class TestDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Test> _instance;
@@ -30,16 +30,16 @@ class Excel_TestDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Excel_Test> _instance;
 } _Excel_Test_default_instance_;
-}  // namespace HiProtobuf
+}  // namespace cjProtoBuf
 static void InitDefaultsscc_info_Excel_Test_Test_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
-    void* ptr = &::HiProtobuf::_Excel_Test_default_instance_;
-    new (ptr) ::HiProtobuf::Excel_Test();
+    void* ptr = &::cjProtoBuf::_Excel_Test_default_instance_;
+    new (ptr) ::cjProtoBuf::Excel_Test();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
-  ::HiProtobuf::Excel_Test::InitAsDefaultInstance();
+  ::cjProtoBuf::Excel_Test::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Excel_Test_Test_2eproto =
@@ -50,10 +50,10 @@ static void InitDefaultsscc_info_Excel_Test_DataEntry_DoNotUse_Test_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
-    void* ptr = &::HiProtobuf::_Excel_Test_DataEntry_DoNotUse_default_instance_;
-    new (ptr) ::HiProtobuf::Excel_Test_DataEntry_DoNotUse();
+    void* ptr = &::cjProtoBuf::_Excel_Test_DataEntry_DoNotUse_default_instance_;
+    new (ptr) ::cjProtoBuf::Excel_Test_DataEntry_DoNotUse();
   }
-  ::HiProtobuf::Excel_Test_DataEntry_DoNotUse::InitAsDefaultInstance();
+  ::cjProtoBuf::Excel_Test_DataEntry_DoNotUse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Excel_Test_DataEntry_DoNotUse_Test_2eproto =
@@ -64,11 +64,11 @@ static void InitDefaultsscc_info_Test_Test_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
-    void* ptr = &::HiProtobuf::_Test_default_instance_;
-    new (ptr) ::HiProtobuf::Test();
+    void* ptr = &::cjProtoBuf::_Test_default_instance_;
+    new (ptr) ::cjProtoBuf::Test();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
-  ::HiProtobuf::Test::InitAsDefaultInstance();
+  ::cjProtoBuf::Test::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Test_Test_2eproto =
@@ -80,52 +80,52 @@ static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_s
 
 const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_Test_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Test, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Test, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Test, id_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Test, name_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Test, hp_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Test, attack_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Test, infos_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Excel_Test_DataEntry_DoNotUse, _has_bits_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Excel_Test_DataEntry_DoNotUse, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Test, id_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Test, name_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Test, hp_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Test, attack_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Test, infos_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Excel_Test_DataEntry_DoNotUse, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Excel_Test_DataEntry_DoNotUse, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Excel_Test_DataEntry_DoNotUse, key_),
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Excel_Test_DataEntry_DoNotUse, value_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Excel_Test_DataEntry_DoNotUse, key_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Excel_Test_DataEntry_DoNotUse, value_),
   0,
   1,
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Excel_Test, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Excel_Test, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::HiProtobuf::Excel_Test, data_),
+  PROTOBUF_FIELD_OFFSET(::cjProtoBuf::Excel_Test, data_),
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(::HiProtobuf::Test)},
-  { 10, 17, sizeof(::HiProtobuf::Excel_Test_DataEntry_DoNotUse)},
-  { 19, -1, sizeof(::HiProtobuf::Excel_Test)},
+  { 0, -1, sizeof(::cjProtoBuf::Test)},
+  { 10, 17, sizeof(::cjProtoBuf::Excel_Test_DataEntry_DoNotUse)},
+  { 19, -1, sizeof(::cjProtoBuf::Excel_Test)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::HiProtobuf::_Test_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::HiProtobuf::_Excel_Test_DataEntry_DoNotUse_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::HiProtobuf::_Excel_Test_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::cjProtoBuf::_Test_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::cjProtoBuf::_Excel_Test_DataEntry_DoNotUse_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::cjProtoBuf::_Excel_Test_default_instance_),
 };
 
 const char descriptor_table_protodef_Test_2eproto[] =
-  "\n\nTest.proto\022\nHiProtobuf\"K\n\004Test\022\n\n\002id\030\001"
+  "\n\nTest.proto\022\ncjProtoBuf\"K\n\004Test\022\n\n\002id\030\001"
   " \001(\005\022\014\n\004name\030\002 \001(\t\022\n\n\002hp\030\003 \001(\005\022\016\n\006attack"
   "\030\004 \001(\005\022\r\n\005infos\030\005 \003(\t\"{\n\nExcel_Test\022.\n\004D"
-  "ata\030\001 \003(\0132 .HiProtobuf.Excel_Test.DataEn"
+  "ata\030\001 \003(\0132 .cjProtoBuf.Excel_Test.DataEn"
   "try\032=\n\tDataEntry\022\013\n\003key\030\001 \001(\005\022\037\n\005value\030\002"
-  " \001(\0132\020.HiProtobuf.Test:\0028\001B8\n\031com.HiProt"
-  "obuf.HiProtobufB\016Test_classname\252\002\nHiProt"
-  "obufb\006proto3"
+  " \001(\0132\020.cjProtoBuf.Test:\0028\001B.\n\017com.cj.pro"
+  "tobufB\016Test_classname\252\002\ncjProtobufb\006prot"
+  "o3"
   ;
 static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_Test_2eproto_deps[1] = {
 };
@@ -137,7 +137,7 @@ static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_Tes
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_Test_2eproto_once;
 static bool descriptor_table_Test_2eproto_initialized = false;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_Test_2eproto = {
-  &descriptor_table_Test_2eproto_initialized, descriptor_table_protodef_Test_2eproto, "Test.proto", 292,
+  &descriptor_table_Test_2eproto_initialized, descriptor_table_protodef_Test_2eproto, "Test.proto", 282,
   &descriptor_table_Test_2eproto_once, descriptor_table_Test_2eproto_sccs, descriptor_table_Test_2eproto_deps, 3, 0,
   schemas, file_default_instances, TableStruct_Test_2eproto::offsets,
   file_level_metadata_Test_2eproto, 3, file_level_enum_descriptors_Test_2eproto, file_level_service_descriptors_Test_2eproto,
@@ -145,7 +145,7 @@ const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_Test_2
 
 // Force running AddDescriptors() at dynamic initialization time.
 static bool dynamic_init_dummy_Test_2eproto = (  ::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_Test_2eproto), true);
-namespace HiProtobuf {
+namespace cjProtoBuf {
 
 // ===================================================================
 
@@ -166,7 +166,7 @@ const int Test::kInfosFieldNumber;
 Test::Test()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:HiProtobuf.Test)
+  // @@protoc_insertion_point(constructor:cjProtoBuf.Test)
 }
 Test::Test(const Test& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
@@ -180,7 +180,7 @@ Test::Test(const Test& from)
   ::memcpy(&id_, &from.id_,
     static_cast<size_t>(reinterpret_cast<char*>(&attack_) -
     reinterpret_cast<char*>(&id_)) + sizeof(attack_));
-  // @@protoc_insertion_point(copy_constructor:HiProtobuf.Test)
+  // @@protoc_insertion_point(copy_constructor:cjProtoBuf.Test)
 }
 
 void Test::SharedCtor() {
@@ -192,7 +192,7 @@ void Test::SharedCtor() {
 }
 
 Test::~Test() {
-  // @@protoc_insertion_point(destructor:HiProtobuf.Test)
+  // @@protoc_insertion_point(destructor:cjProtoBuf.Test)
   SharedDtor();
 }
 
@@ -210,7 +210,7 @@ const Test& Test::default_instance() {
 
 
 void Test::Clear() {
-// @@protoc_insertion_point(message_clear_start:HiProtobuf.Test)
+// @@protoc_insertion_point(message_clear_start:cjProtoBuf.Test)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -241,7 +241,7 @@ const char* Test::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::inter
       // string name = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(mutable_name(), ptr, ctx, "HiProtobuf.Test.name");
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(mutable_name(), ptr, ctx, "cjProtoBuf.Test.name");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -265,7 +265,7 @@ const char* Test::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::inter
           ptr -= 1;
           do {
             ptr += 1;
-            ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(add_infos(), ptr, ctx, "HiProtobuf.Test.infos");
+            ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(add_infos(), ptr, ctx, "cjProtoBuf.Test.infos");
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<::PROTOBUF_NAMESPACE_ID::uint8>(ptr) == 42);
@@ -295,7 +295,7 @@ bool Test::MergePartialFromCodedStream(
     ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-  // @@protoc_insertion_point(parse_start:HiProtobuf.Test)
+  // @@protoc_insertion_point(parse_start:cjProtoBuf.Test)
   for (;;) {
     ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
@@ -322,7 +322,7 @@ bool Test::MergePartialFromCodedStream(
           DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
             this->name().data(), static_cast<int>(this->name().length()),
             ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::PARSE,
-            "HiProtobuf.Test.name"));
+            "cjProtoBuf.Test.name"));
         } else {
           goto handle_unusual;
         }
@@ -364,7 +364,7 @@ bool Test::MergePartialFromCodedStream(
             this->infos(this->infos_size() - 1).data(),
             static_cast<int>(this->infos(this->infos_size() - 1).length()),
             ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::PARSE,
-            "HiProtobuf.Test.infos"));
+            "cjProtoBuf.Test.infos"));
         } else {
           goto handle_unusual;
         }
@@ -383,10 +383,10 @@ bool Test::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:HiProtobuf.Test)
+  // @@protoc_insertion_point(parse_success:cjProtoBuf.Test)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:HiProtobuf.Test)
+  // @@protoc_insertion_point(parse_failure:cjProtoBuf.Test)
   return false;
 #undef DO_
 }
@@ -394,7 +394,7 @@ failure:
 
 void Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:HiProtobuf.Test)
+  // @@protoc_insertion_point(serialize_start:cjProtoBuf.Test)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -408,7 +408,7 @@ void Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->name().data(), static_cast<int>(this->name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "HiProtobuf.Test.name");
+      "cjProtoBuf.Test.name");
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringMaybeAliased(
       2, this->name(), output);
   }
@@ -428,7 +428,7 @@ void Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->infos(i).data(), static_cast<int>(this->infos(i).length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "HiProtobuf.Test.infos");
+      "cjProtoBuf.Test.infos");
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteString(
       5, this->infos(i), output);
   }
@@ -437,12 +437,12 @@ void Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
         _internal_metadata_.unknown_fields(), output);
   }
-  // @@protoc_insertion_point(serialize_end:HiProtobuf.Test)
+  // @@protoc_insertion_point(serialize_end:cjProtoBuf.Test)
 }
 
 ::PROTOBUF_NAMESPACE_ID::uint8* Test::InternalSerializeWithCachedSizesToArray(
     ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:HiProtobuf.Test)
+  // @@protoc_insertion_point(serialize_to_array_start:cjProtoBuf.Test)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -456,7 +456,7 @@ void Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->name().data(), static_cast<int>(this->name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "HiProtobuf.Test.name");
+      "cjProtoBuf.Test.name");
     target =
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringToArray(
         2, this->name(), target);
@@ -477,7 +477,7 @@ void Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->infos(i).data(), static_cast<int>(this->infos(i).length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "HiProtobuf.Test.infos");
+      "cjProtoBuf.Test.infos");
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       WriteStringToArray(5, this->infos(i), target);
   }
@@ -486,12 +486,12 @@ void Test::SerializeWithCachedSizes(
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields(), target);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:HiProtobuf.Test)
+  // @@protoc_insertion_point(serialize_to_array_end:cjProtoBuf.Test)
   return target;
 }
 
 size_t Test::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:HiProtobuf.Test)
+// @@protoc_insertion_point(message_byte_size_start:cjProtoBuf.Test)
   size_t total_size = 0;
 
   if (_internal_metadata_.have_unknown_fields()) {
@@ -545,22 +545,22 @@ size_t Test::ByteSizeLong() const {
 }
 
 void Test::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:HiProtobuf.Test)
+// @@protoc_insertion_point(generalized_merge_from_start:cjProtoBuf.Test)
   GOOGLE_DCHECK_NE(&from, this);
   const Test* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Test>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:HiProtobuf.Test)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:cjProtoBuf.Test)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:HiProtobuf.Test)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:cjProtoBuf.Test)
     MergeFrom(*source);
   }
 }
 
 void Test::MergeFrom(const Test& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:HiProtobuf.Test)
+// @@protoc_insertion_point(class_specific_merge_from_start:cjProtoBuf.Test)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -583,14 +583,14 @@ void Test::MergeFrom(const Test& from) {
 }
 
 void Test::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:HiProtobuf.Test)
+// @@protoc_insertion_point(generalized_copy_from_start:cjProtoBuf.Test)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Test::CopyFrom(const Test& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:HiProtobuf.Test)
+// @@protoc_insertion_point(class_specific_copy_from_start:cjProtoBuf.Test)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -652,14 +652,14 @@ const int Excel_Test::kDataFieldNumber;
 Excel_Test::Excel_Test()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(constructor:cjProtoBuf.Excel_Test)
 }
 Excel_Test::Excel_Test(const Excel_Test& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       _internal_metadata_(nullptr) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   data_.MergeFrom(from.data_);
-  // @@protoc_insertion_point(copy_constructor:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(copy_constructor:cjProtoBuf.Excel_Test)
 }
 
 void Excel_Test::SharedCtor() {
@@ -667,7 +667,7 @@ void Excel_Test::SharedCtor() {
 }
 
 Excel_Test::~Excel_Test() {
-  // @@protoc_insertion_point(destructor:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(destructor:cjProtoBuf.Excel_Test)
   SharedDtor();
 }
 
@@ -684,7 +684,7 @@ const Excel_Test& Excel_Test::default_instance() {
 
 
 void Excel_Test::Clear() {
-// @@protoc_insertion_point(message_clear_start:HiProtobuf.Excel_Test)
+// @@protoc_insertion_point(message_clear_start:cjProtoBuf.Excel_Test)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -701,7 +701,7 @@ const char* Excel_Test::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // map<int32, .HiProtobuf.Test> Data = 1;
+      // map<int32, .cjProtoBuf.Test> Data = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -737,22 +737,22 @@ bool Excel_Test::MergePartialFromCodedStream(
     ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-  // @@protoc_insertion_point(parse_start:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(parse_start:cjProtoBuf.Excel_Test)
   for (;;) {
     ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // map<int32, .HiProtobuf.Test> Data = 1;
+      // map<int32, .cjProtoBuf.Test> Data = 1;
       case 1: {
         if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
           Excel_Test_DataEntry_DoNotUse::Parser< ::PROTOBUF_NAMESPACE_ID::internal::MapField<
               Excel_Test_DataEntry_DoNotUse,
-              ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test,
+              ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test,
               ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
               ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
               0 >,
-            ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test > > parser(&data_);
+            ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test > > parser(&data_);
           DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessageNoVirtual(
               input, &parser));
         } else {
@@ -773,10 +773,10 @@ bool Excel_Test::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(parse_success:cjProtoBuf.Excel_Test)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(parse_failure:cjProtoBuf.Excel_Test)
   return false;
 #undef DO_
 }
@@ -784,13 +784,13 @@ failure:
 
 void Excel_Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(serialize_start:cjProtoBuf.Excel_Test)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // map<int32, .HiProtobuf.Test> Data = 1;
+  // map<int32, .cjProtoBuf.Test> Data = 1;
   if (!this->data().empty()) {
-    typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_pointer
+    typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_pointer
         ConstPtr;
     typedef ::PROTOBUF_NAMESPACE_ID::internal::SortItem< ::PROTOBUF_NAMESPACE_ID::int32, ConstPtr > SortItem;
     typedef ::PROTOBUF_NAMESPACE_ID::internal::CompareByFirstField<SortItem> Less;
@@ -799,9 +799,9 @@ void Excel_Test::SerializeWithCachedSizes(
         this->data().size() > 1) {
       ::std::unique_ptr<SortItem[]> items(
           new SortItem[this->data().size()]);
-      typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::size_type size_type;
+      typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::size_type size_type;
       size_type n = 0;
-      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_iterator
+      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_iterator
           it = this->data().begin();
           it != this->data().end(); ++it, ++n) {
         items[static_cast<ptrdiff_t>(n)] = SortItem(&*it);
@@ -812,7 +812,7 @@ void Excel_Test::SerializeWithCachedSizes(
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(1, entry, output);
       }
     } else {
-      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_iterator
+      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_iterator
           it = this->data().begin();
           it != this->data().end(); ++it) {
         Excel_Test_DataEntry_DoNotUse::MapEntryWrapper entry(nullptr, it->first, it->second);
@@ -825,18 +825,18 @@ void Excel_Test::SerializeWithCachedSizes(
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
         _internal_metadata_.unknown_fields(), output);
   }
-  // @@protoc_insertion_point(serialize_end:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(serialize_end:cjProtoBuf.Excel_Test)
 }
 
 ::PROTOBUF_NAMESPACE_ID::uint8* Excel_Test::InternalSerializeWithCachedSizesToArray(
     ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(serialize_to_array_start:cjProtoBuf.Excel_Test)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // map<int32, .HiProtobuf.Test> Data = 1;
+  // map<int32, .cjProtoBuf.Test> Data = 1;
   if (!this->data().empty()) {
-    typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_pointer
+    typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_pointer
         ConstPtr;
     typedef ::PROTOBUF_NAMESPACE_ID::internal::SortItem< ::PROTOBUF_NAMESPACE_ID::int32, ConstPtr > SortItem;
     typedef ::PROTOBUF_NAMESPACE_ID::internal::CompareByFirstField<SortItem> Less;
@@ -845,9 +845,9 @@ void Excel_Test::SerializeWithCachedSizes(
         this->data().size() > 1) {
       ::std::unique_ptr<SortItem[]> items(
           new SortItem[this->data().size()]);
-      typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::size_type size_type;
+      typedef ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::size_type size_type;
       size_type n = 0;
-      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_iterator
+      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_iterator
           it = this->data().begin();
           it != this->data().end(); ++it, ++n) {
         items[static_cast<ptrdiff_t>(n)] = SortItem(&*it);
@@ -858,7 +858,7 @@ void Excel_Test::SerializeWithCachedSizes(
         target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::InternalWriteMessageNoVirtualToArray(1, entry, target);
       }
     } else {
-      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_iterator
+      for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_iterator
           it = this->data().begin();
           it != this->data().end(); ++it) {
         Excel_Test_DataEntry_DoNotUse::MapEntryWrapper entry(nullptr, it->first, it->second);
@@ -871,12 +871,12 @@ void Excel_Test::SerializeWithCachedSizes(
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields(), target);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(serialize_to_array_end:cjProtoBuf.Excel_Test)
   return target;
 }
 
 size_t Excel_Test::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:HiProtobuf.Excel_Test)
+// @@protoc_insertion_point(message_byte_size_start:cjProtoBuf.Excel_Test)
   size_t total_size = 0;
 
   if (_internal_metadata_.have_unknown_fields()) {
@@ -888,10 +888,10 @@ size_t Excel_Test::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // map<int32, .HiProtobuf.Test> Data = 1;
+  // map<int32, .cjProtoBuf.Test> Data = 1;
   total_size += 1 *
       ::PROTOBUF_NAMESPACE_ID::internal::FromIntSize(this->data_size());
-  for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >::const_iterator
+  for (::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >::const_iterator
       it = this->data().begin();
       it != this->data().end(); ++it) {
     Excel_Test_DataEntry_DoNotUse::MapEntryWrapper entry(nullptr, it->first, it->second);
@@ -905,22 +905,22 @@ size_t Excel_Test::ByteSizeLong() const {
 }
 
 void Excel_Test::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:HiProtobuf.Excel_Test)
+// @@protoc_insertion_point(generalized_merge_from_start:cjProtoBuf.Excel_Test)
   GOOGLE_DCHECK_NE(&from, this);
   const Excel_Test* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Excel_Test>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:cjProtoBuf.Excel_Test)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:cjProtoBuf.Excel_Test)
     MergeFrom(*source);
   }
 }
 
 void Excel_Test::MergeFrom(const Excel_Test& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:HiProtobuf.Excel_Test)
+// @@protoc_insertion_point(class_specific_merge_from_start:cjProtoBuf.Excel_Test)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -930,14 +930,14 @@ void Excel_Test::MergeFrom(const Excel_Test& from) {
 }
 
 void Excel_Test::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:HiProtobuf.Excel_Test)
+// @@protoc_insertion_point(generalized_copy_from_start:cjProtoBuf.Excel_Test)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Excel_Test::CopyFrom(const Excel_Test& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:HiProtobuf.Excel_Test)
+// @@protoc_insertion_point(class_specific_copy_from_start:cjProtoBuf.Excel_Test)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -963,16 +963,16 @@ void Excel_Test::InternalSwap(Excel_Test* other) {
 
 
 // @@protoc_insertion_point(namespace_scope)
-}  // namespace HiProtobuf
+}  // namespace cjProtoBuf
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::HiProtobuf::Test* Arena::CreateMaybeMessage< ::HiProtobuf::Test >(Arena* arena) {
-  return Arena::CreateInternal< ::HiProtobuf::Test >(arena);
+template<> PROTOBUF_NOINLINE ::cjProtoBuf::Test* Arena::CreateMaybeMessage< ::cjProtoBuf::Test >(Arena* arena) {
+  return Arena::CreateInternal< ::cjProtoBuf::Test >(arena);
 }
-template<> PROTOBUF_NOINLINE ::HiProtobuf::Excel_Test_DataEntry_DoNotUse* Arena::CreateMaybeMessage< ::HiProtobuf::Excel_Test_DataEntry_DoNotUse >(Arena* arena) {
-  return Arena::CreateInternal< ::HiProtobuf::Excel_Test_DataEntry_DoNotUse >(arena);
+template<> PROTOBUF_NOINLINE ::cjProtoBuf::Excel_Test_DataEntry_DoNotUse* Arena::CreateMaybeMessage< ::cjProtoBuf::Excel_Test_DataEntry_DoNotUse >(Arena* arena) {
+  return Arena::CreateInternal< ::cjProtoBuf::Excel_Test_DataEntry_DoNotUse >(arena);
 }
-template<> PROTOBUF_NOINLINE ::HiProtobuf::Excel_Test* Arena::CreateMaybeMessage< ::HiProtobuf::Excel_Test >(Arena* arena) {
-  return Arena::CreateInternal< ::HiProtobuf::Excel_Test >(arena);
+template<> PROTOBUF_NOINLINE ::cjProtoBuf::Excel_Test* Arena::CreateMaybeMessage< ::cjProtoBuf::Excel_Test >(Arena* arena) {
+  return Arena::CreateInternal< ::cjProtoBuf::Excel_Test >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE
 

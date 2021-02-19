@@ -57,7 +57,7 @@ struct TableStruct_Example_2eproto {
   static const ::PROTOBUF_NAMESPACE_ID::uint32 offsets[];
 };
 extern const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_Example_2eproto;
-namespace HiProtobuf {
+namespace cjProtoBuf {
 class Example;
 class ExampleDefaultTypeInternal;
 extern ExampleDefaultTypeInternal _Example_default_instance_;
@@ -67,18 +67,18 @@ extern Excel_ExampleDefaultTypeInternal _Excel_Example_default_instance_;
 class Excel_Example_DataEntry_DoNotUse;
 class Excel_Example_DataEntry_DoNotUseDefaultTypeInternal;
 extern Excel_Example_DataEntry_DoNotUseDefaultTypeInternal _Excel_Example_DataEntry_DoNotUse_default_instance_;
-}  // namespace HiProtobuf
+}  // namespace cjProtoBuf
 PROTOBUF_NAMESPACE_OPEN
-template<> ::HiProtobuf::Example* Arena::CreateMaybeMessage<::HiProtobuf::Example>(Arena*);
-template<> ::HiProtobuf::Excel_Example* Arena::CreateMaybeMessage<::HiProtobuf::Excel_Example>(Arena*);
-template<> ::HiProtobuf::Excel_Example_DataEntry_DoNotUse* Arena::CreateMaybeMessage<::HiProtobuf::Excel_Example_DataEntry_DoNotUse>(Arena*);
+template<> ::cjProtoBuf::Example* Arena::CreateMaybeMessage<::cjProtoBuf::Example>(Arena*);
+template<> ::cjProtoBuf::Excel_Example* Arena::CreateMaybeMessage<::cjProtoBuf::Excel_Example>(Arena*);
+template<> ::cjProtoBuf::Excel_Example_DataEntry_DoNotUse* Arena::CreateMaybeMessage<::cjProtoBuf::Excel_Example_DataEntry_DoNotUse>(Arena*);
 PROTOBUF_NAMESPACE_CLOSE
-namespace HiProtobuf {
+namespace cjProtoBuf {
 
 // ===================================================================
 
 class Example :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:HiProtobuf.Example) */ {
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:cjProtoBuf.Example) */ {
  public:
   Example();
   virtual ~Example();
@@ -162,7 +162,7 @@ class Example :
   void InternalSwap(Example* other);
   friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
   static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
-    return "HiProtobuf.Example";
+    return "cjProtoBuf.Example";
   }
   private:
   inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
@@ -348,7 +348,7 @@ class Example :
   bool name7() const;
   void set_name7(bool value);
 
-  // @@protoc_insertion_point(class_scope:HiProtobuf.Example)
+  // @@protoc_insertion_point(class_scope:cjProtoBuf.Example)
  private:
   class HasBitSetters;
 
@@ -383,13 +383,13 @@ class Example :
 // -------------------------------------------------------------------
 
 class Excel_Example_DataEntry_DoNotUse : public ::PROTOBUF_NAMESPACE_ID::internal::MapEntry<Excel_Example_DataEntry_DoNotUse, 
-    ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example,
+    ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
     0 > {
 public:
   typedef ::PROTOBUF_NAMESPACE_ID::internal::MapEntry<Excel_Example_DataEntry_DoNotUse, 
-    ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example,
+    ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
     0 > SuperType;
@@ -413,7 +413,7 @@ public:
 // -------------------------------------------------------------------
 
 class Excel_Example :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:HiProtobuf.Excel_Example) */ {
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:cjProtoBuf.Excel_Example) */ {
  public:
   Excel_Example();
   virtual ~Excel_Example();
@@ -497,7 +497,7 @@ class Excel_Example :
   void InternalSwap(Excel_Example* other);
   friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
   static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
-    return "HiProtobuf.Excel_Example";
+    return "cjProtoBuf.Excel_Example";
   }
   private:
   inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
@@ -522,23 +522,23 @@ class Excel_Example :
 
   // accessors -------------------------------------------------------
 
-  // map<int32, .HiProtobuf.Example> Data = 1;
+  // map<int32, .cjProtoBuf.Example> Data = 1;
   int data_size() const;
   void clear_data();
   static const int kDataFieldNumber = 1;
-  const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example >&
+  const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example >&
       data() const;
-  ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example >*
+  ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example >*
       mutable_data();
 
-  // @@protoc_insertion_point(class_scope:HiProtobuf.Excel_Example)
+  // @@protoc_insertion_point(class_scope:cjProtoBuf.Excel_Example)
  private:
   class HasBitSetters;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::internal::MapField<
       Excel_Example_DataEntry_DoNotUse,
-      ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example,
+      ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example,
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
       0 > data_;
@@ -561,13 +561,13 @@ inline void Example::clear_id() {
   id_ = 0;
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Example::id() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.id)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.id)
   return id_;
 }
 inline void Example::set_id(::PROTOBUF_NAMESPACE_ID::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.id)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.id)
 }
 
 // double name1 = 2;
@@ -575,13 +575,13 @@ inline void Example::clear_name1() {
   name1_ = 0;
 }
 inline double Example::name1() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name1)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name1)
   return name1_;
 }
 inline void Example::set_name1(double value) {
   
   name1_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name1)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name1)
 }
 
 // float name2 = 3;
@@ -589,13 +589,13 @@ inline void Example::clear_name2() {
   name2_ = 0;
 }
 inline float Example::name2() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name2)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name2)
   return name2_;
 }
 inline void Example::set_name2(float value) {
   
   name2_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name2)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name2)
 }
 
 // int32 name3 = 4;
@@ -603,13 +603,13 @@ inline void Example::clear_name3() {
   name3_ = 0;
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Example::name3() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name3)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name3)
   return name3_;
 }
 inline void Example::set_name3(::PROTOBUF_NAMESPACE_ID::int32 value) {
   
   name3_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name3)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name3)
 }
 
 // int64 name4 = 5;
@@ -617,13 +617,13 @@ inline void Example::clear_name4() {
   name4_ = PROTOBUF_LONGLONG(0);
 }
 inline ::PROTOBUF_NAMESPACE_ID::int64 Example::name4() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name4)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name4)
   return name4_;
 }
 inline void Example::set_name4(::PROTOBUF_NAMESPACE_ID::int64 value) {
   
   name4_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name4)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name4)
 }
 
 // uint32 name5 = 6;
@@ -631,13 +631,13 @@ inline void Example::clear_name5() {
   name5_ = 0u;
 }
 inline ::PROTOBUF_NAMESPACE_ID::uint32 Example::name5() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name5)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name5)
   return name5_;
 }
 inline void Example::set_name5(::PROTOBUF_NAMESPACE_ID::uint32 value) {
   
   name5_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name5)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name5)
 }
 
 // uint64 name6 = 7;
@@ -645,13 +645,13 @@ inline void Example::clear_name6() {
   name6_ = PROTOBUF_ULONGLONG(0);
 }
 inline ::PROTOBUF_NAMESPACE_ID::uint64 Example::name6() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name6)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name6)
   return name6_;
 }
 inline void Example::set_name6(::PROTOBUF_NAMESPACE_ID::uint64 value) {
   
   name6_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name6)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name6)
 }
 
 // bool name7 = 8;
@@ -659,13 +659,13 @@ inline void Example::clear_name7() {
   name7_ = false;
 }
 inline bool Example::name7() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name7)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name7)
   return name7_;
 }
 inline void Example::set_name7(bool value) {
   
   name7_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name7)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name7)
 }
 
 // string name8 = 9;
@@ -673,39 +673,39 @@ inline void Example::clear_name8() {
   name8_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 inline const std::string& Example::name8() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name8)
   return name8_.GetNoArena();
 }
 inline void Example::set_name8(const std::string& value) {
   
   name8_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name8)
 }
 inline void Example::set_name8(std::string&& value) {
   
   name8_.SetNoArena(
     &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_set_rvalue:cjProtoBuf.Example.name8)
 }
 inline void Example::set_name8(const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   
   name8_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_set_char:cjProtoBuf.Example.name8)
 }
 inline void Example::set_name8(const char* value, size_t size) {
   
   name8_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_set_pointer:cjProtoBuf.Example.name8)
 }
 inline std::string* Example::mutable_name8() {
   
-  // @@protoc_insertion_point(field_mutable:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_mutable:cjProtoBuf.Example.name8)
   return name8_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 inline std::string* Example::release_name8() {
-  // @@protoc_insertion_point(field_release:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_release:cjProtoBuf.Example.name8)
   
   return name8_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
@@ -716,7 +716,7 @@ inline void Example::set_allocated_name8(std::string* name8) {
     
   }
   name8_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), name8);
-  // @@protoc_insertion_point(field_set_allocated:HiProtobuf.Example.name8)
+  // @@protoc_insertion_point(field_set_allocated:cjProtoBuf.Example.name8)
 }
 
 // repeated double name9 = 10;
@@ -727,25 +727,25 @@ inline void Example::clear_name9() {
   name9_.Clear();
 }
 inline double Example::name9(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name9)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name9)
   return name9_.Get(index);
 }
 inline void Example::set_name9(int index, double value) {
   name9_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name9)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name9)
 }
 inline void Example::add_name9(double value) {
   name9_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name9)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name9)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< double >&
 Example::name9() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name9)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name9)
   return name9_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< double >*
 Example::mutable_name9() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name9)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name9)
   return &name9_;
 }
 
@@ -757,25 +757,25 @@ inline void Example::clear_name10() {
   name10_.Clear();
 }
 inline float Example::name10(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name10)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name10)
   return name10_.Get(index);
 }
 inline void Example::set_name10(int index, float value) {
   name10_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name10)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name10)
 }
 inline void Example::add_name10(float value) {
   name10_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name10)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name10)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< float >&
 Example::name10() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name10)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name10)
   return name10_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< float >*
 Example::mutable_name10() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name10)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name10)
   return &name10_;
 }
 
@@ -787,25 +787,25 @@ inline void Example::clear_name11() {
   name11_.Clear();
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Example::name11(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name11)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name11)
   return name11_.Get(index);
 }
 inline void Example::set_name11(int index, ::PROTOBUF_NAMESPACE_ID::int32 value) {
   name11_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name11)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name11)
 }
 inline void Example::add_name11(::PROTOBUF_NAMESPACE_ID::int32 value) {
   name11_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name11)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name11)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
 Example::name11() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name11)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name11)
   return name11_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
 Example::mutable_name11() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name11)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name11)
   return &name11_;
 }
 
@@ -817,25 +817,25 @@ inline void Example::clear_name12() {
   name12_.Clear();
 }
 inline ::PROTOBUF_NAMESPACE_ID::int64 Example::name12(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name12)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name12)
   return name12_.Get(index);
 }
 inline void Example::set_name12(int index, ::PROTOBUF_NAMESPACE_ID::int64 value) {
   name12_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name12)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name12)
 }
 inline void Example::add_name12(::PROTOBUF_NAMESPACE_ID::int64 value) {
   name12_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name12)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name12)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int64 >&
 Example::name12() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name12)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name12)
   return name12_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int64 >*
 Example::mutable_name12() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name12)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name12)
   return &name12_;
 }
 
@@ -847,25 +847,25 @@ inline void Example::clear_name13() {
   name13_.Clear();
 }
 inline ::PROTOBUF_NAMESPACE_ID::uint32 Example::name13(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name13)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name13)
   return name13_.Get(index);
 }
 inline void Example::set_name13(int index, ::PROTOBUF_NAMESPACE_ID::uint32 value) {
   name13_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name13)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name13)
 }
 inline void Example::add_name13(::PROTOBUF_NAMESPACE_ID::uint32 value) {
   name13_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name13)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name13)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::uint32 >&
 Example::name13() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name13)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name13)
   return name13_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::uint32 >*
 Example::mutable_name13() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name13)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name13)
   return &name13_;
 }
 
@@ -877,25 +877,25 @@ inline void Example::clear_name14() {
   name14_.Clear();
 }
 inline ::PROTOBUF_NAMESPACE_ID::uint64 Example::name14(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name14)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name14)
   return name14_.Get(index);
 }
 inline void Example::set_name14(int index, ::PROTOBUF_NAMESPACE_ID::uint64 value) {
   name14_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name14)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name14)
 }
 inline void Example::add_name14(::PROTOBUF_NAMESPACE_ID::uint64 value) {
   name14_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name14)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name14)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::uint64 >&
 Example::name14() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name14)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name14)
   return name14_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::uint64 >*
 Example::mutable_name14() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name14)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name14)
   return &name14_;
 }
 
@@ -907,25 +907,25 @@ inline void Example::clear_name15() {
   name15_.Clear();
 }
 inline bool Example::name15(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name15)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name15)
   return name15_.Get(index);
 }
 inline void Example::set_name15(int index, bool value) {
   name15_.Set(index, value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name15)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name15)
 }
 inline void Example::add_name15(bool value) {
   name15_.Add(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name15)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name15)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< bool >&
 Example::name15() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name15)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name15)
   return name15_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< bool >*
 Example::mutable_name15() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name15)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name15)
   return &name15_;
 }
 
@@ -937,60 +937,60 @@ inline void Example::clear_name16() {
   name16_.Clear();
 }
 inline const std::string& Example::name16(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Example.name16)
   return name16_.Get(index);
 }
 inline std::string* Example::mutable_name16(int index) {
-  // @@protoc_insertion_point(field_mutable:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_mutable:cjProtoBuf.Example.name16)
   return name16_.Mutable(index);
 }
 inline void Example::set_name16(int index, const std::string& value) {
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name16)
   name16_.Mutable(index)->assign(value);
 }
 inline void Example::set_name16(int index, std::string&& value) {
-  // @@protoc_insertion_point(field_set:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Example.name16)
   name16_.Mutable(index)->assign(std::move(value));
 }
 inline void Example::set_name16(int index, const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   name16_.Mutable(index)->assign(value);
-  // @@protoc_insertion_point(field_set_char:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_set_char:cjProtoBuf.Example.name16)
 }
 inline void Example::set_name16(int index, const char* value, size_t size) {
   name16_.Mutable(index)->assign(
     reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_set_pointer:cjProtoBuf.Example.name16)
 }
 inline std::string* Example::add_name16() {
-  // @@protoc_insertion_point(field_add_mutable:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_add_mutable:cjProtoBuf.Example.name16)
   return name16_.Add();
 }
 inline void Example::add_name16(const std::string& value) {
   name16_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name16)
 }
 inline void Example::add_name16(std::string&& value) {
   name16_.Add(std::move(value));
-  // @@protoc_insertion_point(field_add:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Example.name16)
 }
 inline void Example::add_name16(const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   name16_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add_char:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_add_char:cjProtoBuf.Example.name16)
 }
 inline void Example::add_name16(const char* value, size_t size) {
   name16_.Add()->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_add_pointer:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_add_pointer:cjProtoBuf.Example.name16)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>&
 Example::name16() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Example.name16)
   return name16_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>*
 Example::mutable_name16() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Example.name16)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Example.name16)
   return &name16_;
 }
 
@@ -1000,21 +1000,21 @@ Example::mutable_name16() {
 
 // Excel_Example
 
-// map<int32, .HiProtobuf.Example> Data = 1;
+// map<int32, .cjProtoBuf.Example> Data = 1;
 inline int Excel_Example::data_size() const {
   return data_.size();
 }
 inline void Excel_Example::clear_data() {
   data_.Clear();
 }
-inline const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example >&
+inline const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example >&
 Excel_Example::data() const {
-  // @@protoc_insertion_point(field_map:HiProtobuf.Excel_Example.Data)
+  // @@protoc_insertion_point(field_map:cjProtoBuf.Excel_Example.Data)
   return data_.GetMap();
 }
-inline ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Example >*
+inline ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Example >*
 Excel_Example::mutable_data() {
-  // @@protoc_insertion_point(field_mutable_map:HiProtobuf.Excel_Example.Data)
+  // @@protoc_insertion_point(field_mutable_map:cjProtoBuf.Excel_Example.Data)
   return data_.MutableMap();
 }
 
@@ -1028,7 +1028,7 @@ Excel_Example::mutable_data() {
 
 // @@protoc_insertion_point(namespace_scope)
 
-}  // namespace HiProtobuf
+}  // namespace cjProtoBuf
 
 // @@protoc_insertion_point(global_scope)
 

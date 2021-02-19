@@ -57,7 +57,7 @@ struct TableStruct_Test_2eproto {
   static const ::PROTOBUF_NAMESPACE_ID::uint32 offsets[];
 };
 extern const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_Test_2eproto;
-namespace HiProtobuf {
+namespace cjProtoBuf {
 class Excel_Test;
 class Excel_TestDefaultTypeInternal;
 extern Excel_TestDefaultTypeInternal _Excel_Test_default_instance_;
@@ -67,18 +67,18 @@ extern Excel_Test_DataEntry_DoNotUseDefaultTypeInternal _Excel_Test_DataEntry_Do
 class Test;
 class TestDefaultTypeInternal;
 extern TestDefaultTypeInternal _Test_default_instance_;
-}  // namespace HiProtobuf
+}  // namespace cjProtoBuf
 PROTOBUF_NAMESPACE_OPEN
-template<> ::HiProtobuf::Excel_Test* Arena::CreateMaybeMessage<::HiProtobuf::Excel_Test>(Arena*);
-template<> ::HiProtobuf::Excel_Test_DataEntry_DoNotUse* Arena::CreateMaybeMessage<::HiProtobuf::Excel_Test_DataEntry_DoNotUse>(Arena*);
-template<> ::HiProtobuf::Test* Arena::CreateMaybeMessage<::HiProtobuf::Test>(Arena*);
+template<> ::cjProtoBuf::Excel_Test* Arena::CreateMaybeMessage<::cjProtoBuf::Excel_Test>(Arena*);
+template<> ::cjProtoBuf::Excel_Test_DataEntry_DoNotUse* Arena::CreateMaybeMessage<::cjProtoBuf::Excel_Test_DataEntry_DoNotUse>(Arena*);
+template<> ::cjProtoBuf::Test* Arena::CreateMaybeMessage<::cjProtoBuf::Test>(Arena*);
 PROTOBUF_NAMESPACE_CLOSE
-namespace HiProtobuf {
+namespace cjProtoBuf {
 
 // ===================================================================
 
 class Test :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:HiProtobuf.Test) */ {
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:cjProtoBuf.Test) */ {
  public:
   Test();
   virtual ~Test();
@@ -162,7 +162,7 @@ class Test :
   void InternalSwap(Test* other);
   friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
   static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
-    return "HiProtobuf.Test";
+    return "cjProtoBuf.Test";
   }
   private:
   inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
@@ -234,7 +234,7 @@ class Test :
   ::PROTOBUF_NAMESPACE_ID::int32 attack() const;
   void set_attack(::PROTOBUF_NAMESPACE_ID::int32 value);
 
-  // @@protoc_insertion_point(class_scope:HiProtobuf.Test)
+  // @@protoc_insertion_point(class_scope:cjProtoBuf.Test)
  private:
   class HasBitSetters;
 
@@ -250,13 +250,13 @@ class Test :
 // -------------------------------------------------------------------
 
 class Excel_Test_DataEntry_DoNotUse : public ::PROTOBUF_NAMESPACE_ID::internal::MapEntry<Excel_Test_DataEntry_DoNotUse, 
-    ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test,
+    ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
     0 > {
 public:
   typedef ::PROTOBUF_NAMESPACE_ID::internal::MapEntry<Excel_Test_DataEntry_DoNotUse, 
-    ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test,
+    ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
     0 > SuperType;
@@ -280,7 +280,7 @@ public:
 // -------------------------------------------------------------------
 
 class Excel_Test :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:HiProtobuf.Excel_Test) */ {
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:cjProtoBuf.Excel_Test) */ {
  public:
   Excel_Test();
   virtual ~Excel_Test();
@@ -364,7 +364,7 @@ class Excel_Test :
   void InternalSwap(Excel_Test* other);
   friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
   static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
-    return "HiProtobuf.Excel_Test";
+    return "cjProtoBuf.Excel_Test";
   }
   private:
   inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
@@ -389,23 +389,23 @@ class Excel_Test :
 
   // accessors -------------------------------------------------------
 
-  // map<int32, .HiProtobuf.Test> Data = 1;
+  // map<int32, .cjProtoBuf.Test> Data = 1;
   int data_size() const;
   void clear_data();
   static const int kDataFieldNumber = 1;
-  const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >&
+  const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >&
       data() const;
-  ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >*
+  ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >*
       mutable_data();
 
-  // @@protoc_insertion_point(class_scope:HiProtobuf.Excel_Test)
+  // @@protoc_insertion_point(class_scope:cjProtoBuf.Excel_Test)
  private:
   class HasBitSetters;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::internal::MapField<
       Excel_Test_DataEntry_DoNotUse,
-      ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test,
+      ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test,
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32,
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_MESSAGE,
       0 > data_;
@@ -428,13 +428,13 @@ inline void Test::clear_id() {
   id_ = 0;
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Test::id() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Test.id)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Test.id)
   return id_;
 }
 inline void Test::set_id(::PROTOBUF_NAMESPACE_ID::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Test.id)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Test.id)
 }
 
 // string name = 2;
@@ -442,39 +442,39 @@ inline void Test::clear_name() {
   name_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 inline const std::string& Test::name() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Test.name)
   return name_.GetNoArena();
 }
 inline void Test::set_name(const std::string& value) {
   
   name_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Test.name)
 }
 inline void Test::set_name(std::string&& value) {
   
   name_.SetNoArena(
     &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_set_rvalue:cjProtoBuf.Test.name)
 }
 inline void Test::set_name(const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   
   name_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_set_char:cjProtoBuf.Test.name)
 }
 inline void Test::set_name(const char* value, size_t size) {
   
   name_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_set_pointer:cjProtoBuf.Test.name)
 }
 inline std::string* Test::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_mutable:cjProtoBuf.Test.name)
   return name_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 inline std::string* Test::release_name() {
-  // @@protoc_insertion_point(field_release:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_release:cjProtoBuf.Test.name)
   
   return name_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
@@ -485,7 +485,7 @@ inline void Test::set_allocated_name(std::string* name) {
     
   }
   name_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:HiProtobuf.Test.name)
+  // @@protoc_insertion_point(field_set_allocated:cjProtoBuf.Test.name)
 }
 
 // int32 hp = 3;
@@ -493,13 +493,13 @@ inline void Test::clear_hp() {
   hp_ = 0;
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Test::hp() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Test.hp)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Test.hp)
   return hp_;
 }
 inline void Test::set_hp(::PROTOBUF_NAMESPACE_ID::int32 value) {
   
   hp_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Test.hp)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Test.hp)
 }
 
 // int32 attack = 4;
@@ -507,13 +507,13 @@ inline void Test::clear_attack() {
   attack_ = 0;
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Test::attack() const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Test.attack)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Test.attack)
   return attack_;
 }
 inline void Test::set_attack(::PROTOBUF_NAMESPACE_ID::int32 value) {
   
   attack_ = value;
-  // @@protoc_insertion_point(field_set:HiProtobuf.Test.attack)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Test.attack)
 }
 
 // repeated string infos = 5;
@@ -524,60 +524,60 @@ inline void Test::clear_infos() {
   infos_.Clear();
 }
 inline const std::string& Test::infos(int index) const {
-  // @@protoc_insertion_point(field_get:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_get:cjProtoBuf.Test.infos)
   return infos_.Get(index);
 }
 inline std::string* Test::mutable_infos(int index) {
-  // @@protoc_insertion_point(field_mutable:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_mutable:cjProtoBuf.Test.infos)
   return infos_.Mutable(index);
 }
 inline void Test::set_infos(int index, const std::string& value) {
-  // @@protoc_insertion_point(field_set:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Test.infos)
   infos_.Mutable(index)->assign(value);
 }
 inline void Test::set_infos(int index, std::string&& value) {
-  // @@protoc_insertion_point(field_set:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_set:cjProtoBuf.Test.infos)
   infos_.Mutable(index)->assign(std::move(value));
 }
 inline void Test::set_infos(int index, const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   infos_.Mutable(index)->assign(value);
-  // @@protoc_insertion_point(field_set_char:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_set_char:cjProtoBuf.Test.infos)
 }
 inline void Test::set_infos(int index, const char* value, size_t size) {
   infos_.Mutable(index)->assign(
     reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_set_pointer:cjProtoBuf.Test.infos)
 }
 inline std::string* Test::add_infos() {
-  // @@protoc_insertion_point(field_add_mutable:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_add_mutable:cjProtoBuf.Test.infos)
   return infos_.Add();
 }
 inline void Test::add_infos(const std::string& value) {
   infos_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Test.infos)
 }
 inline void Test::add_infos(std::string&& value) {
   infos_.Add(std::move(value));
-  // @@protoc_insertion_point(field_add:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_add:cjProtoBuf.Test.infos)
 }
 inline void Test::add_infos(const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   infos_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add_char:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_add_char:cjProtoBuf.Test.infos)
 }
 inline void Test::add_infos(const char* value, size_t size) {
   infos_.Add()->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_add_pointer:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_add_pointer:cjProtoBuf.Test.infos)
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>&
 Test::infos() const {
-  // @@protoc_insertion_point(field_list:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_list:cjProtoBuf.Test.infos)
   return infos_;
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>*
 Test::mutable_infos() {
-  // @@protoc_insertion_point(field_mutable_list:HiProtobuf.Test.infos)
+  // @@protoc_insertion_point(field_mutable_list:cjProtoBuf.Test.infos)
   return &infos_;
 }
 
@@ -587,21 +587,21 @@ Test::mutable_infos() {
 
 // Excel_Test
 
-// map<int32, .HiProtobuf.Test> Data = 1;
+// map<int32, .cjProtoBuf.Test> Data = 1;
 inline int Excel_Test::data_size() const {
   return data_.size();
 }
 inline void Excel_Test::clear_data() {
   data_.Clear();
 }
-inline const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >&
+inline const ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >&
 Excel_Test::data() const {
-  // @@protoc_insertion_point(field_map:HiProtobuf.Excel_Test.Data)
+  // @@protoc_insertion_point(field_map:cjProtoBuf.Excel_Test.Data)
   return data_.GetMap();
 }
-inline ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::HiProtobuf::Test >*
+inline ::PROTOBUF_NAMESPACE_ID::Map< ::PROTOBUF_NAMESPACE_ID::int32, ::cjProtoBuf::Test >*
 Excel_Test::mutable_data() {
-  // @@protoc_insertion_point(field_mutable_map:HiProtobuf.Excel_Test.Data)
+  // @@protoc_insertion_point(field_mutable_map:cjProtoBuf.Excel_Test.Data)
   return data_.MutableMap();
 }
 
@@ -615,7 +615,7 @@ Excel_Test::mutable_data() {
 
 // @@protoc_insertion_point(namespace_scope)
 
-}  // namespace HiProtobuf
+}  // namespace cjProtoBuf
 
 // @@protoc_insertion_point(global_scope)
 

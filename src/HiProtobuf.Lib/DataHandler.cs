@@ -31,7 +31,7 @@ namespace HiProtobuf.Lib
 
         public void Process()
         {
-            var dllPath = Settings.ProtobufOutput_Folder + Settings.language_folder + Settings.csharp_dll_folder + Compiler.DllName;
+            var dllPath = Settings.ProtobufOutput_Folder + Settings.code_folder + Settings.csharp_dll_folder + Compiler.DllName;
             _assembly = Assembly.LoadFrom(dllPath);
             var protoFolder = Settings.ProtobufOutput_Folder + Settings.proto_folder;
             string[] files = Directory.GetFiles(protoFolder, "*.proto", SearchOption.AllDirectories);

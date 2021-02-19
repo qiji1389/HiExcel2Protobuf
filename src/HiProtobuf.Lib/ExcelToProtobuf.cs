@@ -1,11 +1,4 @@
-﻿/****************************************************************************
- * Description: 
- * 
- * Document: https://github.com/hiramtan/HiProtobuf
- * Author: hiramtan@live.com
- ****************************************************************************/
-
-using System;
+﻿using System;
 using HiFramework.Assert;
 using Microsoft.Office.Interop.Excel;
 using System.Collections.Generic;
@@ -14,9 +7,9 @@ using System.Linq;
 
 namespace HiProtobuf.Lib
 {
-    internal class ProtoHandler
+    internal class ExcelToProtobuf
     {
-        public ProtoHandler()
+        public ExcelToProtobuf()
         {
             var path = Settings.ProtobufOutput_Folder + Settings.proto_folder;
             if (Directory.Exists(path))
@@ -26,26 +19,25 @@ namespace HiProtobuf.Lib
             Directory.CreateDirectory(path);
         }
 
-        public void Process()
+        public void Generate()
         {
-            //递归查询
-            string[] files = Directory.GetFiles(Settings.SourceExcel_Folder, "*.xlsx", SearchOption.AllDirectories);
-            for (int i = 0; i < files.Length; i++)
+            string[] excelFiles = Directory.GetFiles(Settings.SourceExcel_Folder, "*.xlsx", SearchOption.AllDirectories);
+            for (int i = 0; i < excelFiles.Length; i++)
             {
-                var path = files[i];
-                if (path.Contains("~$"))//已打开的表格格式
+                var excelFilePath = excelFiles[i];
+                if (excelFilePath.Contains("~$"))//It's an already opened excel
                 {
                     continue;
                 }
-                ProcessExcel(path);
+                ProcessExcel(excelFilePath);
             }
         }
 
-        void ProcessExcel(string path)
+        void ProcessExcel(string excelFilePath)
         {
-            AssertThat.IsNotNullOrEmpty(path);
+            AssertThat.IsNotNullOrEmpty(excelFilePath);
             var excelApp = new Application();
-            var workbooks = excelApp.Workbooks.Open(path);
+            var workbooks = excelApp.Workbooks.Open(excelFilePath);
             try
             {
                 var sheet = workbooks.Sheets[1];
@@ -53,8 +45,8 @@ namespace HiProtobuf.Lib
                 Worksheet worksheet = sheet as Worksheet;
                 AssertThat.IsNotNull(sheet, "Excel's worksheet is null");
                 var usedRange = worksheet.UsedRange;
-                int rowCount = usedRange.Rows.Count;
-                int colCount = usedRange.Columns.Count;
+                //int rowCount = usedRange.Rows.Count;
+                //int colCount = usedRange.Columns.Count;
                 //for (int i = 1; i <= rowCount; i++)
                 //{
                 //    for (int j = 1; j <= colCount; j++)
@@ -63,8 +55,8 @@ namespace HiProtobuf.Lib
                 //        var str = value.ToString();
                 //    }
                 //}
-                var name = Path.GetFileNameWithoutExtension(path);
-                new ProtoGenerater(name, rowCount, colCount, usedRange).Process();
+                var name = Path.GetFileNameWithoutExtension(excelFilePath);
+                new ProtoGenerator(name, usedRange).Generate();
             }
             catch (Exception e)
             {

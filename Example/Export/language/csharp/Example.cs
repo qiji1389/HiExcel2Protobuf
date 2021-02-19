@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace HiProtobuf {
+namespace cjProtobuf {
 
   /// <summary>Holder for reflection information generated from Example.proto</summary>
   public static partial class ExampleReflection {
@@ -24,23 +24,22 @@ namespace HiProtobuf {
     static ExampleReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Cg1FeGFtcGxlLnByb3RvEgpIaVByb3RvYnVmIowCCgdFeGFtcGxlEgoKAmlk",
+            "Cg1FeGFtcGxlLnByb3RvEgpjalByb3RvQnVmIowCCgdFeGFtcGxlEgoKAmlk",
             "GAEgASgFEg0KBW5hbWUxGAIgASgBEg0KBW5hbWUyGAMgASgCEg0KBW5hbWUz",
             "GAQgASgFEg0KBW5hbWU0GAUgASgDEg0KBW5hbWU1GAYgASgNEg0KBW5hbWU2",
             "GAcgASgEEg0KBW5hbWU3GAggASgIEg0KBW5hbWU4GAkgASgJEg0KBW5hbWU5",
             "GAogAygBEg4KBm5hbWUxMBgLIAMoAhIOCgZuYW1lMTEYDCADKAUSDgoGbmFt",
             "ZTEyGA0gAygDEg4KBm5hbWUxMxgOIAMoDRIOCgZuYW1lMTQYDyADKAQSDgoG",
             "bmFtZTE1GBAgAygIEg4KBm5hbWUxNhgRIAMoCSKEAQoNRXhjZWxfRXhhbXBs",
-            "ZRIxCgREYXRhGAEgAygLMiMuSGlQcm90b2J1Zi5FeGNlbF9FeGFtcGxlLkRh",
+            "ZRIxCgREYXRhGAEgAygLMiMuY2pQcm90b0J1Zi5FeGNlbF9FeGFtcGxlLkRh",
             "dGFFbnRyeRpACglEYXRhRW50cnkSCwoDa2V5GAEgASgFEiIKBXZhbHVlGAIg",
-            "ASgLMhMuSGlQcm90b2J1Zi5FeGFtcGxlOgI4AUI7Chljb20uSGlQcm90b2J1",
-            "Zi5IaVByb3RvYnVmQhFFeGFtcGxlX2NsYXNzbmFtZaoCCkhpUHJvdG9idWZi",
-            "BnByb3RvMw=="));
+            "ASgLMhMuY2pQcm90b0J1Zi5FeGFtcGxlOgI4AUIxCg9jb20uY2oucHJvdG9i",
+            "dWZCEUV4YW1wbGVfY2xhc3NuYW1lqgIKY2pQcm90b2J1ZmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::HiProtobuf.Example), global::HiProtobuf.Example.Parser, new[]{ "Id", "Name1", "Name2", "Name3", "Name4", "Name5", "Name6", "Name7", "Name8", "Name9", "Name10", "Name11", "Name12", "Name13", "Name14", "Name15", "Name16" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HiProtobuf.Excel_Example), global::HiProtobuf.Excel_Example.Parser, new[]{ "Data" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::cjProtobuf.Example), global::cjProtobuf.Example.Parser, new[]{ "Id", "Name1", "Name2", "Name3", "Name4", "Name5", "Name6", "Name7", "Name8", "Name9", "Name10", "Name11", "Name12", "Name13", "Name14", "Name15", "Name16" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::cjProtobuf.Excel_Example), global::cjProtobuf.Excel_Example.Parser, new[]{ "Data" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -55,7 +54,7 @@ namespace HiProtobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HiProtobuf.ExampleReflection.Descriptor.MessageTypes[0]; }
+      get { return global::cjProtobuf.ExampleReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -575,7 +574,7 @@ namespace HiProtobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HiProtobuf.ExampleReflection.Descriptor.MessageTypes[1]; }
+      get { return global::cjProtobuf.ExampleReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -603,11 +602,11 @@ namespace HiProtobuf {
 
     /// <summary>Field number for the "Data" field.</summary>
     public const int DataFieldNumber = 1;
-    private static readonly pbc::MapField<int, global::HiProtobuf.Example>.Codec _map_data_codec
-        = new pbc::MapField<int, global::HiProtobuf.Example>.Codec(pb::FieldCodec.ForInt32(8), pb::FieldCodec.ForMessage(18, global::HiProtobuf.Example.Parser), 10);
-    private readonly pbc::MapField<int, global::HiProtobuf.Example> data_ = new pbc::MapField<int, global::HiProtobuf.Example>();
+    private static readonly pbc::MapField<int, global::cjProtobuf.Example>.Codec _map_data_codec
+        = new pbc::MapField<int, global::cjProtobuf.Example>.Codec(pb::FieldCodec.ForInt32(8), pb::FieldCodec.ForMessage(18, global::cjProtobuf.Example.Parser), 10);
+    private readonly pbc::MapField<int, global::cjProtobuf.Example> data_ = new pbc::MapField<int, global::cjProtobuf.Example>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::MapField<int, global::HiProtobuf.Example> Data {
+    public pbc::MapField<int, global::cjProtobuf.Example> Data {
       get { return data_; }
     }
 

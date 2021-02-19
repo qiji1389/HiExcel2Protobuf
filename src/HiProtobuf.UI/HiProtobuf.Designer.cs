@@ -153,8 +153,8 @@
             this.flowLayoutPanel.AutoSize = true;
             this.flowLayoutPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayoutPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel.Controls.Add(this.panel2);
             this.flowLayoutPanel.Controls.Add(this.panel1);
+            this.flowLayoutPanel.Controls.Add(this.panel2);
             this.flowLayoutPanel.Controls.Add(this.panel3);
             this.flowLayoutPanel.Controls.Add(this.panel4);
             this.flowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
@@ -168,7 +168,7 @@
             this.panel2.Controls.Add(this.btnSelectOutputProtobufDir);
             this.panel2.Controls.Add(this.txtOutputProtobufDir);
             this.panel2.Controls.Add(this.lblOutputProtobufDir);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(3, 69);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(950, 60);
             this.panel2.TabIndex = 15;
@@ -178,7 +178,7 @@
             this.panel1.Controls.Add(this.lblSrcExcelDir);
             this.panel1.Controls.Add(this.txtSrcExcelDir);
             this.panel1.Controls.Add(this.btnSelectSrcExcelDir);
-            this.panel1.Location = new System.Drawing.Point(3, 69);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(950, 60);
             this.panel1.TabIndex = 14;

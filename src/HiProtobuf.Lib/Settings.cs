@@ -1,11 +1,4 @@
-﻿/****************************************************************************
- * Description: 
- * 
- * Document: https://github.com/hiramtan/HiProtobuf
- * Author: hiramtan@live.com
- ****************************************************************************/
-
-using System;
+﻿using System;
 
 namespace HiProtobuf.Lib
 {
@@ -39,24 +32,24 @@ namespace HiProtobuf.Lib
         /// <summary>
         /// Proto文件存放目录
         /// </summary>
-        internal static readonly string proto_folder = "/proto";
+        internal static readonly string proto_folder = "\\proto";
 
         /// <summary>
         /// 语言存放目录
         /// </summary>
-        internal static readonly string language_folder = "/language";
+        internal static readonly string code_folder = "\\language";
 
         /// <summary>
         /// 数据存放目录
         /// </summary>
-        internal static readonly string dat_folder = "/dat";
+        internal static readonly string dat_folder = "\\data";
 
         //导出语言文件夹
-        internal static readonly string csharp_folder = "/csharp";
-        internal static readonly string csharp_dll_folder = "/csharp_dll";
-        internal static readonly string cpp_folder = "/cpp";
-        internal static readonly string go_folder = "/go";
-        internal static readonly string java_folder = "/java";
-        internal static readonly string python_folder = "/python";
+        internal static readonly string csharp_folder = "\\csharp";
+        internal static readonly string csharp_dll_folder = "\\csharp_dll";
+        internal static readonly string cpp_folder = "\\cpp";
+        internal static readonly string go_folder = "\\go";
+        internal static readonly string java_folder = "\\java";
+        internal static readonly string python_folder = "\\python";
     }
 }

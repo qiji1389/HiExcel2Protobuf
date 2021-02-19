@@ -1,11 +1,4 @@
-﻿/****************************************************************************
- * Description: 
- * 
- * Document: https://github.com/hiramtan/HiProtobuf
- * Author: hiramtan@live.com
- ****************************************************************************/
-
-using HiFramework.Log;
+﻿using HiFramework.Log;
 
 namespace HiProtobuf.Lib
 {
@@ -15,31 +8,31 @@ namespace HiProtobuf.Lib
         {
             if (string.IsNullOrEmpty(Settings.ProtobufOutput_Folder))
             {
-                Log.Error("导出文件夹未配置");
+                Log.Error("Invalid Protobuf output folder path.");
                 return;
             }
             if (string.IsNullOrEmpty(Settings.SourceExcel_Folder))
             {
-                Log.Error("Excel文件夹未配置");
+                Log.Error("Invalid source Excel folder path");
                 return;
             }
             if (string.IsNullOrEmpty(Settings.Compiler_Path))
             {
-                Log.Error("编译器路径未配置");
+                Log.Error("Invalid .Net compiler path");
                 return;
             }
-            Log.Info("开始生成协议");
-            new ProtoHandler().Process();
-            Log.Info("生成协议结束");
-            Log.Info("开始生成语言");
-            new LanguageGenerater().Process();
-            Log.Info("生成语言结束");
-            Log.Info("开始编译语言");
-            new Compiler().Porcess();
-            Log.Info("编译语言结束");
-            Log.Info("开始生成数据");
-            new DataHandler().Process();
-            Log.Info("生成数据结束");
+            Log.Info("Generating Protobuf...");
+            new ExcelToProtobuf().Generate();
+            Log.Info("Done generating Protobuf.");
+            Log.Info("Generating Protobuf API code...");
+            new CodeGenerater().Generate();
+            Log.Info("Done generating Protobuf API code.");
+            Log.Info("Compiling code...");
+            //new Compiler().Porcess();
+            Log.Info("Done compiling code.");
+            Log.Info("Generating Protobuf data...");
+            //new DataHandler().Process();
+            Log.Info("Done generating Protobuf data.");
         }
     }
 }
