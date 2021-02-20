@@ -28,7 +28,7 @@ namespace Excel2Protobuf.Lib
             new CodeGenerater().Generate();
             Log.Info("Done generating Protobuf API code.");
             Log.Info("Compiling code...");
-            //new Compiler().Porcess();
+            new Compiler().Porcess();
             Log.Info("Done compiling code.");
             Log.Info("Generating Protobuf data...");
             //new DataHandler().Process();

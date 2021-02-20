@@ -37,7 +37,7 @@ namespace Excel2Protobuf.Lib
         /// <summary>
         /// 语言存放目录
         /// </summary>
-        internal static readonly string code_folder = "\\language";
+        internal static readonly string code_folder = "\\code";
 
         /// <summary>
         /// 数据存放目录

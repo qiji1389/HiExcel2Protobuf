@@ -20,3 +20,14 @@ D:\DEV\crude-jade-cpp\modules\Excel2Protobuf\Example\Excel2Protobuf\Excel2Protob
 D:\DEV\crude-jade-cpp\modules\Excel2Protobuf\src\HiProtobuf.UI\obj\Debug\Excel2Protobuf.UI.csproj.CopyComplete
 D:\DEV\crude-jade-cpp\modules\Excel2Protobuf\src\HiProtobuf.UI\obj\Debug\Excel2Protobuf.UI.exe
 D:\DEV\crude-jade-cpp\modules\Excel2Protobuf\src\HiProtobuf.UI\obj\Debug\Excel2Protobuf.UI.pdb
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\Excel2Protobuf\Excel2Protobuf.UI.exe.config
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\Excel2Protobuf\Excel2Protobuf.UI.exe
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\Example\Excel2Protobuf\Excel2Protobuf.UI.pdb
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.csprojAssemblyReference.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.Excel2ProtobufTool.resources
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.Properties.Resources.resources
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.csproj.GenerateResource.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.csproj.CoreCompileInputs.cache
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.csproj.CopyComplete
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.exe
+D:\DEV\crude-jade-cpp\modules\HiExcel2Protobuf\src\Execl2Protobuf.UI\obj\Debug\Excel2Protobuf.UI.pdb

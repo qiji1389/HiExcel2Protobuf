@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using HiFramework.Log;
+using System.IO;
 
 namespace Excel2Protobuf.Lib
 {
