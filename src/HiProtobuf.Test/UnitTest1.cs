@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Excel2Protobuf.Lib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Google.Protobuf;
+using Excel2Protobuf.Lib;
 
 namespace Excel2Protobuf.Test
 {

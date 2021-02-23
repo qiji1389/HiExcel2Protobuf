@@ -4,6 +4,7 @@ using Microsoft.Office.Interop.Excel;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace Excel2Protobuf.Lib
 {
@@ -21,6 +22,8 @@ namespace Excel2Protobuf.Lib
 
         public void Generate()
         {
+            List<string> templateProtoList = new List<string>();
+
             string[] excelFiles = Directory.GetFiles(Settings.SourceExcel_Folder, "*.xlsx", SearchOption.AllDirectories);
             for (int i = 0; i < excelFiles.Length; i++)
             {
@@ -30,7 +33,12 @@ namespace Excel2Protobuf.Lib
                     continue;
                 }
                 ProcessExcel(excelFilePath);
+
+                var protoName = Path.GetFileNameWithoutExtension(excelFilePath);
+                templateProtoList.Add(protoName);
             }
+
+            generateAllTemplatesProto(templateProtoList);
         }
 
         void ProcessExcel(string excelFilePath)
@@ -55,8 +63,8 @@ namespace Excel2Protobuf.Lib
                 //        var str = value.ToString();
                 //    }
                 //}
-                var name = Path.GetFileNameWithoutExtension(excelFilePath);
-                new ProtoGenerator(name, usedRange).Generate();
+                var protoName = Path.GetFileNameWithoutExtension(excelFilePath);
+                new ProtoGenerator(protoName, usedRange).Generate();
             }
             catch (Exception e)
             {
@@ -69,6 +77,63 @@ namespace Excel2Protobuf.Lib
                 excelApp.Quit();
                 System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
             }
+        }
+
+        private void generateAllTemplatesProto(List<string> templateProtoList)
+        {
+            var allTemplatesProtoFilePath = Settings.ProtobufOutput_Folder + Settings.proto_folder + "\\AllTemplates.proto";
+            var header = @"
+// Do not modify
+// This is an auto generated protobuf declaration file
+
+// [BEG declaration]
+syntax = ""proto3"";
+package cjProtoBuf;
+// [END declaration]
+
+// [START csharp_declaration]
+option csharp_namespace = ""cjProtobuf""; 
+// [END csharp_declaration]
+";
+            try
+            {
+                using (var sw = File.AppendText(allTemplatesProtoFilePath))
+                {
+                    // header
+                    sw.WriteLine(header);
+
+                    // imports
+                    var importStr = @"import ""{0}.proto"";";
+                    foreach (var templateProto in templateProtoList)
+                    {
+                        var importStatement = string.Format(importStr, templateProto);
+                        sw.WriteLine(importStatement);
+                    }
+
+                    sw.WriteLine();
+
+                    // message
+                    int protoIndex = 0;
+                    var fieldStr = @"map<int32, {0}> {1}Data = {2};";
+                    StringBuilder sb = new StringBuilder("message AllTemplates {\n");
+                    foreach(var templateProto in templateProtoList)
+                    {
+                        protoIndex++;
+                        var fieldDeclaration = string.Format(fieldStr, templateProto, templateProto, protoIndex);
+                        sb.Append(fieldDeclaration);
+                        sb.Append("\n");
+                    }
+                    sb.Append("}");
+
+                    sw.Write(sb.ToString());
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+
         }
     }
 }

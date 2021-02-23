@@ -42,7 +42,7 @@ namespace Excel2Protobuf.Lib
         /// <summary>
         /// 数据存放目录
         /// </summary>
-        internal static readonly string dat_folder = "\\data";
+        internal static readonly string data_folder = "\\data";
 
         //导出语言文件夹
         internal static readonly string csharp_folder = "\\csharp";

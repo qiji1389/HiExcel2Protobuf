@@ -34,6 +34,8 @@ namespace Excel2Protobuf.Lib
                 var protoFile = protoFiles[i];
                 var command = Settings.Protoc_Path + string.Format(" -I={0} --csharp_out={1} {2}", protoPath, outputFolder, protoFile);
                 var log = Common.Cmd(command);
+
+                // Log.Info(log);
             }
         }
 

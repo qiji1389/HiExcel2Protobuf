@@ -77,7 +77,7 @@ namespace Excel2Protobuf.Lib
             string output = reader.ReadLine();
             while (!reader.EndOfStream)
             {
-                output += reader.ReadLine();
+                output += reader.ReadLine()+"\r\n";
             }
 
             process.WaitForExit();

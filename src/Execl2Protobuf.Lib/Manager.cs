@@ -31,7 +31,7 @@ namespace Excel2Protobuf.Lib
             new Compiler().Porcess();
             Log.Info("Done compiling code.");
             Log.Info("Generating Protobuf data...");
-            //new DataHandler().Process();
+            new DataParser().Process();
             Log.Info("Done generating Protobuf data.");
         }
     }
